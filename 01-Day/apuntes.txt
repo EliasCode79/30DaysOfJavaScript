@@ -1,0 +1,4 @@
+en los diferentes archivos ".js" escribi la misma variable y tambien los imprima y como el index.html llamaba a todos los archivos ".js" esto llegaba a presentarme un error el cual de decia q la variables ya habian sido declaradas, este error me salia porque en los otros archivos ".js" inicializaba las variables como el mismo nombre q tenian los otros archivos.
+
+Conclusion
+Para no tener este error tenemos q usar diferentes nombres entre archivos, esto solo si las variables "let" esta como globales por asi decirlo, porque si esta variable declarada con "let" esta dentro de un funcion no nos generara error.
